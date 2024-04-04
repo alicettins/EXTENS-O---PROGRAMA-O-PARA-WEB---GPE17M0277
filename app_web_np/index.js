@@ -1,4 +1,5 @@
 const express = require('express');
+const mat = require('./util/matematica');
 const app = express();
 
 app.get('/', function(req, res){
